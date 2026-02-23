@@ -4,12 +4,20 @@ import '../models/cart_model.dart';
 import 'checkout_page.dart';
 
 class CartPage extends StatelessWidget {
+  // ✅ Formatter Rupiah tanpa package
+  String formatRupiah(num number) {
+    return 'Rp ' +
+        number
+            .toStringAsFixed(0)
+            .replaceAllMapped(RegExp(r'\B(?=(\d{3})+(?!\d))'), (match) => '.');
+  }
+
   @override
   Widget build(BuildContext context) {
     final cart = Provider.of<CartModel>(context);
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Cart')),
+      appBar: AppBar(title: const Text('Keranjang')),
       body: Column(
         children: [
           Expanded(
@@ -21,27 +29,41 @@ class CartPage extends StatelessWidget {
                 return ListTile(
                   title: Text(item.product.name),
                   subtitle: Text(
-                    'Qty: ${item.quantity} | \$${item.totalPrice}',
+                    'Qty: ${item.quantity} | ${formatRupiah(item.totalPrice)}',
                   ),
+
                   leading: IconButton(
                     icon: const Icon(Icons.remove),
                     onPressed: () {
                       cart.decreaseQuantity(item.product);
                     },
                   ),
-                  trailing: IconButton(
-                    icon: const Icon(Icons.add),
-                    onPressed: () {
-                      cart.increaseQuantity(item.product);
-                    },
+
+                  trailing: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      IconButton(
+                        icon: const Icon(Icons.add),
+                        onPressed: () {
+                          cart.increaseQuantity(item.product);
+                        },
+                      ),
+                      IconButton(
+                        icon: const Icon(Icons.delete, color: Colors.red),
+                        onPressed: () {
+                          cart.removeItem(item.product);
+                        },
+                      ),
+                    ],
                   ),
                 );
               },
             ),
           ),
 
+          // ✅ Total pakai rupiah juga
           Text(
-            'Total: \$${cart.totalPrice}',
+            'Total: ${formatRupiah(cart.totalPrice)}',
             style: const TextStyle(fontSize: 18),
           ),
 
