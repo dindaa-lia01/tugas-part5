@@ -18,11 +18,11 @@ Pada bagian berikut, ditampilkan dokumentasi lengkap mengenai fitur-fitur yang d
 
 1. List Product
 
-   <img width="623" height="837" alt="image" src="https://github.com/user-attachments/assets/a1bcb5e3-c485-4d42-9553-dc30dfdb1bbd" />
+   <img width="623" height="837" alt="Screenshot 2026-02-23 231047" src="https://github.com/user-attachments/assets/38f1782b-c771-4983-9e5a-33e0542bf175" />
 
 3. Halaman Check Out
 
-    <img width="619" height="846" alt="image" src="https://github.com/user-attachments/assets/45ffadcc-f147-4289-ba16-849b897a9cc0" />
+   <img width="619" height="846" alt="Screenshot 2026-02-23 231122" src="https://github.com/user-attachments/assets/4d8e5b51-60c8-401a-aea9-b8c7e7ff751b" />
 
 # ***Fitur Utama***
 
@@ -30,47 +30,48 @@ Pada bagian berikut, ditampilkan dokumentasi lengkap mengenai fitur-fitur yang d
 
 Pengguna dapat memilih produk yang diinginkan dan langsung memasukkannya ke dalam keranjang belanja melalui tombol “+” di sudut kanan bawah.
 
-<img width="275" height="411" alt="Screenshot 2026-02-23 223646" src="https://github.com/user-attachments/assets/9b5c8e8d-9cdd-4a5b-bf32-4a3024d35e9a" />
+<img width="275" height="411" alt="Screenshot 2026-02-23 223646" src="https://github.com/user-attachments/assets/8c308789-c9b4-4af0-b091-f0de081ae63b" />
 
 ## 2. Menampilkan item dalam keranjang beserta jumlah (quantity)
 
 Aplikasi menampilkan daftar produk yang telah dipilih lengkap dengan jumlah masing-masing item yang dimasukkan ke keranjang.
 
-<img width="626" height="836" alt="image" src="https://github.com/user-attachments/assets/83ede3fc-78f2-40c6-b92a-d77f161c89ef" />
+<img width="626" height="836" alt="Screenshot 2026-02-23 230035" src="https://github.com/user-attachments/assets/ebb3756f-dccd-40ab-9ad3-cc34a3d6dd53" />
 
 ## 3. Memperbarui jumlah produk di keranjang (tambah/kurang)
 
 Pengguna dapat menambah atau mengurangi jumlah produk menggunakan tombol (+) atau (−) tanpa harus menghapus dan menambahkan ulang produk.
 
-<img width="586" height="87" alt="image" src="https://github.com/user-attachments/assets/39b584a3-d35b-4795-a245-e1e87d6bdbc8" />
+<img width="626" height="81" alt="Screenshot 2026-02-23 230035" src="https://github.com/user-attachments/assets/d8c5b42a-92a8-46f1-bfea-a78f822ef6a7" />
 
 ## 4. Menghapus produk dari keranjang
 
 Pengguna dapat menghapus item tertentu dari keranjang jika tidak ingin melanjutkan pembelian produk tersebut.
 
-<img width="586" height="87" alt="Screenshot 2026-02-23 230106" src="https://github.com/user-attachments/assets/30002d29-c340-427c-92f6-95ed532d2281" />
+<img width="586" height="87" alt="Screenshot 2026-02-23 230106" src="https://github.com/user-attachments/assets/e878ad99-1d45-4a2b-82f4-95c6ae7330ef" />
 
 ## 5. Menampilkan total harga secara akurat
 
 Sistem secara otomatis menghitung dan memperbarui total harga berdasarkan jumlah dan jenis produk yang ada di keranjang.
 
-<img width="596" height="765" alt="Screenshot 2026-02-23 230406" src="https://github.com/user-attachments/assets/8fdf0430-70b0-4bf1-9bf1-d355554a7312" />
+<img width="596" height="765" alt="Screenshot 2026-02-23 230406" src="https://github.com/user-attachments/assets/8ae98709-1341-41e7-a4c5-6b92ef91ea53" />
 
 ## 6. Pencarian produk berdasarkan nama
 
 Fitur ini memungkinkan pengguna mencari produk tertentu dengan mengetikkan nama produk pada kolom pencarian.
 
-<img width="380" height="601" alt="image" src="https://github.com/user-attachments/assets/fa835293-e6bd-411f-9aab-60097d28ac5d" />
+<img width="380" height="601" alt="Screenshot 2026-02-23 230524" src="https://github.com/user-attachments/assets/9f370a20-9ba7-4e0d-88eb-fdd5f499dc5c" />
 
 ## 7. Filter produk berdasarkan kategori
 
 Pengguna dapat menyaring produk sesuai kategori tertentu agar lebih mudah menemukan produk yang diinginkan.
 
-<img width="620" height="689" alt="image" src="https://github.com/user-attachments/assets/eded379c-ce02-4263-a195-0a97a3d85b98" />
+<img width="620" height="689" alt="Screenshot 2026-02-23 230732" src="https://github.com/user-attachments/assets/d12ae8cc-da78-437c-8cfc-4d212ecfcd2b" />
 
 ## 8. Halaman checkout (ringkasan pesanan dan formulir pemesanan)
 
 Menampilkan detail akhir pesanan, termasuk daftar produk dan total harga, serta menyediakan formulir untuk mengisi data pemesan sebelum transaksi diproses.
 
-<img width="489" height="295" alt="image" src="https://github.com/user-attachments/assets/eeb61c54-b18c-47e4-82eb-9cfe7c0cdecf" />
+<img width="489" height="295" alt="Screenshot 2026-02-23 230812" src="https://github.com/user-attachments/assets/82562a1b-4106-4ed1-9b03-e4fe1eca5763" />
+
 
